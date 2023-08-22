@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#page_4{
+	margin: 6%;
+	box-shadow: 0px 0px 8px 1px;
+	padding: 20px;
+}
+
+
+#page_4 .img_part img{
+	height: 100%;
+	width: 100%;
+}
+
+#page_4 h4,h1{
+	font-family: fantasy;
+	text-align: left;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: left;
+  padding: 20px;
+
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/*----page 5  start----*/
+
+#page_5 img{
+	height: 100%;
+	width: 100%;
+}
+#page_5 .burger_plate img{
+	height: 50%;
+	width: 100%;
+	margin-top: 200px;
+}
+
+
+#page_5 h4{
+	text-align: center;
+	font-family: fantasy;
+}
+#page_5 h1{
+	text-align: center;
+	font-family: fantasy;
+}
+
+#page_5 input,button{
+	height: 3rem;
+	width: 20rem;
+	margin: 1rem 1.5rem;
+	border-radius: 4px;
+	border-style: inset;
+	padding: 2px 15px;
+
+}
+
+#page_5 button{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+
+/*----page 5  end----*/
+
+/*----Page 6 start----*/
+
+#page_6 img{
+	height: 10rem;
+	width: 11rem;
+	margin-left: -2rem;
+}
+
+
+#page_6{
+	margin: 3.2rem;
+	color: white;
+	opacity: 85%;
+}
+
+#page_6 .first_part{
+
+	padding: 0rem 0rem 0rem 2rem;
+}
+
+#page_6 .first_part p{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.second_part .address,.mail{
+	display: flex;
+}
+
+.second_part .address i{
+	padding: 0.35rem 1rem 0rem 0rem;
+}
+
+.second_part .mail i{
+	padding: 0.35rem 1rem 0rem 0rem;
+}
+
+
+#page_6 .second_part{
+	padding: 10rem 3rem 0rem 3rem;
+
+
+}
+
+#page_6 .social i{
+	padding: 1rem;
+	margin-top: 5rem;
+	float: right;
+	font-size: 25px;
+}
+
+
+/*----Page 6 end----*/
